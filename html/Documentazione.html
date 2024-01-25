@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+  <meta charset="utf-8">
+  <title>Documentazione</title>
+  <link rel="icon" type="image/x-icon" href="../img/2048Logo.png">
+  <link rel="stylesheet" href="../css/styleDocumentazione.css">
+</head>
+<body>
+    <div id="titolo"> Regole e Documentazione del gioco</div> 
+    <p> Questa applicazione è una riproduzione fedele del gioco <strong> <em> 2048 </em> </strong> ideato da Gabriele Cirulli. </p>
+    <p> Lo scopo del <strong>gioco</strong> è cercare di raggiungere il più alto punteggio possibile prima che la <strong>scacchiera</strong>
+        si riempa completamente di <strong>caselle</strong> senza poter effettuare una nuova mossa.</p>
+    <p> Una nuova partita inizia con la generazione di due caselle in una posizione casuale all'interno della scacchiera di gioco. 
+        Le 2 caselle che si generano, possono avere un valore di 2 o 4 punti, come le regole del gioco originale. <br>
+        In particolare, una casella di valore 2 ha il 90% di probabilità di essere generata. Una casella di valore 4 ha conseguentemente 
+        una probabilità del 10%. 
+    </p>
+    <p> Utilizzando le frecciette della tastiera, è possibile muovere le caselle sulla scacchiera nella direzione del tasto premuto
+        (rispettivamente verso l'<strong>alto</strong>, verso il <strong>basso</strong>, 
+        verso <strong>sinistra </strong>e verso <strong> destra</strong>). <br>
+        Tutte le caselle si muoveranno nella direzione prestabilita fino a compiere la massima distanza di caselle libere percorribili 
+        in quella direzione. 
+        Se due caselle hanno lo stesso valore di punti e si "scontrano" in seguito ad una mossa, in tal caso si uniranno in un'unica casella avente valore doppio rispetto a quello
+        precedente (Es. due caselle di 2 punti che si ritrovano a "scontrarsi" in seguito ad una mossa, si uniranno in un'unica casella di valore
+        4 punti). <br>
+        Si può facilmente intuire come il valore di una casella possa essere esclusivamente una potenza del 2 (superando anche il valore di 2048, che,
+        sebbene dia il nome al gioco, non rappresenta il valore massimo che una caselle può ottenere). 
+    </p>
+    <p> In seguito all'unione di due caselle, il punteggio del gioco aumenta del valore della somma di tutte le nuove caselle generate in seguito
+        ad uno scontro. 
+        Dopo aver effettuato una mossa, una nuova casella (sempre di valore 2 o 4) si genera sulla scacchiera in una delle celle rimaste libere.
+        In caso di scacchiera completamente coperta da caselle, se non è possibile muovere le caselle, allora la partita è considerata persa. <br> 
+        In particolare, è possibile che la scacchiera si riempa di caselle senza che il giocatore abbia effettivamente perso, esclusivamente nel caso in cui 
+        ci siano ancora delle caselle adiacenti in una delle 4 direzioni possibili che abbiano lo stesso valore. 
+    </p>
+    <p>
+        Un utente che effettua il login, selezionando il menù in alto a destra del gioco, in qualsiasi momento di una partita, può decidere di: </p>
+        <ul> 
+          <li> Iniziare una <strong> NUOVA PARTITA </strong> (la partita corrente verrà persa, opzione obbligatoria in caso di partita terminata); </li>
+          <li> <strong> SALVARE LA PARTITA </strong> corrente (in tal caso al prossimo login effettuato la partita riprenderà dall'ultima mossa effettuata). </li>
+          <li> Confrontare il proprio <strong> RECORD </strong> di punti con quello degli altri giocatori dell'applicazione 
+              (N.B. si definisce <strong> RECORD </strong> il miglior risultato in termini di punteggio di una partita che è stata salvata); </li>
+          <li> Effettuare il <strong> LOGOUT </strong> (la partita verrà salvata in automatico);</li>
+        </ul>
+    <p> In caso di superamento record, nuova partita o partita persa la partita viene automaticamente salvata dal sistema (ma non viene notificato).</p>
+    <p> Un utente che si è appena registrato, al suo primo accesso vedrà automaticamente una nuova partita.</p>
+<p> <strong> Buon divertimento!</strong></p>
+</body>
+</html>

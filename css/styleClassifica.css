@@ -1,0 +1,41 @@
+@font-face {
+  font-family: fontOriginale2048;
+  src: url('../font/ClearSans-Bold.ttf');
+}
+
+body {
+  font-family: fontOriginale2048;
+  background-image: url(../img/SfondoLegno5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+tr, td {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+  
+th {
+  text-align: center;
+  font-size: 35px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+tr {
+  background-color: rgba(255, 255, 0, 0.436);
+  height: 70px;
+}
+
+#classifica {
+  width: 75%;
+  margin: auto;
+}
+
+#intestazione{
+  background-color: #ecc230;
+}
+
+

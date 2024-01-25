@@ -1,0 +1,15 @@
+@font-face {
+  font-family: fontOriginale2048;
+  src: url('../font/ClearSans-Bold.ttf');
+}
+
+body {
+  font-family: fontOriginale2048;
+  background-color: beige;
+}
+
+#titolo {
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+}

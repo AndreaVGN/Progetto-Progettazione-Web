@@ -1,0 +1,1 @@
+interrogaDB("../php/partita/getStatoClassifica.php", creaTabella);
